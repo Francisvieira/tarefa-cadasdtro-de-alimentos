@@ -20,7 +20,8 @@ public class AlimentosModel {
 	public Long getIdalimento() {
 		return idalimento;
 	}
-
+	public AlimentosModel() {
+	}
 	public AlimentosModel(Long idalimento, String nomedoalimento, String quantidade) {
 		this.idalimento = idalimento;
 		this.nomedoalimento = nomedoalimento;
@@ -47,8 +48,7 @@ public class AlimentosModel {
 		this.quantidade = quantidade;
 	}
 
-	public AlimentosModel() {
-	}
+	
 	
 	
 }
